@@ -2,6 +2,7 @@
 @import 'nav-bar.css';
 @import 'footer.css';
 @import 'banners.css';
+@import 'contacts.css';
 
 /* blue: #0f70b7 // rgba(15, 112, 183, 1)*/
 /* orange: #f29200 // rgba(242, 146, 0, 1) */
@@ -11,4 +12,12 @@
 
 body {
   font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
