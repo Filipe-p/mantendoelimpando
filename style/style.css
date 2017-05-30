@@ -3,6 +3,12 @@
 @import 'footer.css';
 @import 'banners.css';
 
+/* blue: #0f70b7 // rgba(15, 112, 183, 1)*/
+/* orange: #f29200 // rgba(242, 146, 0, 1) */
+/* light-blue: #bbdef0 // rgba(187, 222, 240, 1) */
+/* gray: #757575 */
+/* dark-gray: #383d3b // rgba(56, 61, 59, 1) */
+
 body {
   font-family: 'Roboto', sans-serif !important;
 }
