@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
   <!-- Icons -->
@@ -15,7 +15,7 @@
   <title>Mantendo e Limpando</title>
 </head>
 <body>
-  <div> Menu</div>
+  <div>Menu</div>
   <div class="navbar-wagon navbar-wagon-fixed">
   <!-- Logo -->
   <a href="/" class="mantendo-limpando-brand">
@@ -58,8 +58,8 @@
     <h1>Mantendo e Limpando</h1>
     <p>Ligue Agora, Cuide da Sua Casa</p>
     <a class="btn btn-primary btn-lg">912685755</a>
+    </div>
   </div>
-</div>
 
   <div>
   <h2> Banner With symbols</h2>
@@ -101,34 +101,53 @@
 </div>
 
 
-  <div>
+  <div id="contacts">
     <h2>Contacts</h2>
     <div>
       <h3>Phone</h3>
     </div>
   </div>
 
-  <div>
-    <h2>footer</h2>
-    <div>
-      <h3>Landing</h3>
-    </div>
-    <div>
-      <h3>what we do</h3>
-    </div>
-    <div>
-      <h3>contacts</h3>
-      <form action="https://formspree.io/team@soltroiavillas.com"
-      method="POST">
-        <input type="hidden" name="_language" value="pt" />
-        <input type="hidden" name="_cc" value="filipe.p@soltroiavillas.com" />
-        <input type="hidden" name="_subject" value="New submission!" />
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="text" label="Nome" name="name">
-        <input type="email" label="Email" name="_replyto">
-        <input type="text" label="Mensagem" name="message">
-        <input type="submit" value="Enviar">
-      </form>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <h2>footer</h2>
+        <div>
+          <h3>Landing</h3>
+        </div>
+        <div>
+          <h3>what we do</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <h3>contacts</h3>
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <form action="https://formspree.io/team@soltroiavillas.com"
+            method="POST">
+              <input type="hidden" name="_language" value="pt" />
+              <input type="hidden" name="_cc" value="filipe.p@soltroiavillas.com" />
+              <input type="hidden" name="_subject" value="New submission!" />
+              <input type="text" name="_gotcha" style="display:none" />
+              <div class="form-group">
+                <label>Nome</label>
+                <input type="text" name="nome" class="form-control" placeholder="Nome"/>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="_replyto" class="form-control" placeholder="sou.eu@email.com"/>
+              </div>
+              <div class="form-group">
+                <label>Mensagem</label>
+                <textarea type="text" name="mensagem" class="form-control" placeholder="Escrever a sua mensagem aqui"></textarea>
+              </div>
+              <div class="text-center">
+                <input type="submit" value="Enviar" class="btn btn-success" style="width: 100%;" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
