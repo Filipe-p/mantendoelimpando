@@ -1,11 +1,27 @@
 #contacts {
-  background-color: navy;
+  background-color: #0f70b7;
   color: white;
-  padding: 25px;
+  padding: 100px 25px;
 }
 
 .a-tag-contacts {
   font-family: 'Roboto', sans-serif !important;
   color: white !important;
   font-size: 30px
+}
+
+.send-button {
+  border-radius: 25px;
+  background-color: #efa22d;
+  border: 2px solid #f29200;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.send-button:hover {
+  background-color: #f29200;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
