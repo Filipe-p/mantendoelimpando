@@ -1,0 +1,11 @@
+#contacts {
+  background-color: navy;
+  color: white;
+  padding: 25px;
+}
+
+.a-tag-contacts {
+  font-family: 'Roboto', sans-serif !important;
+  color: white !important;
+  font-size: 30px
+}

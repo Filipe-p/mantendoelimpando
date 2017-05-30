@@ -2,7 +2,16 @@
 @import 'nav-bar.css';
 @import 'footer.css';
 @import 'banners.css';
+@import 'contacts.css';
 
 body {
   font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
