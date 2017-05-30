@@ -1,2 +1,6 @@
 /* CSS in here */
-@imporT 'nav-bar.css';
+@import 'nav-bar.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
