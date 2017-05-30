@@ -1,5 +1,6 @@
 /* CSS in here */
 @import 'nav-bar.css';
+@import 'banner1.css';
 
 body {
   font-family: 'Roboto', sans-serif;
