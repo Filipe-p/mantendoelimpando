@@ -1,5 +1,17 @@
 #footer {
-  background-color: #f29200;
   color: white;
-  padding: 25px;
+  background-color: #333333;
+  padding: 20px;
+  color: grey;
 }
+
+.footer-mantendo-limpando-item {
+  color: grey !important;
+  text-decoration: none !important;
+}
+
+.footer-mantendo-limpando-item:hover {
+  text-decoration: none !important;
+}
+
+
