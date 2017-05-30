@@ -14,10 +14,34 @@ body {
   font-family: 'Roboto', sans-serif !important;
 }
 
+.slightly-padded {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.very-slightly-padded {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 a {
     text-decoration: none !important;
 }
 
 a:hover {
     text-decoration: none !important;
+}
+
+.action-button {
+  background-color: rgba(15, 112, 183, 0.7);
+  border: 2px solid #0f70b7;
+  padding: 20px 30px;
+  border-radius: 30px;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.action-button:hover {
+  background-color: #0f70b7;
+  color: white;
+  transition: all 0.2s ease;
 }
