@@ -54,15 +54,16 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: rgba(15, 112, 183, 0.7);
+  background-color: rgba(15, 112, 183, 1);
+  border: 2px solid #0f70b7;
   color: white;
   font-size: 14px;
   text-decoration: none;
   transition: all 0.2s ease;
 }
 .mantendo-limpando-button:hover {
-  color: white !important;
-  background: #0f70b7;
+  background-color: #f29200;
+  color: #0f70b7;
   text-decoration: none;
   transition: all 0.2s ease;
 }
