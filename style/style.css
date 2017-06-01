@@ -44,7 +44,14 @@ a:hover {
 .action-button:hover {
   background-color: #f29200;
   color: #0f70b7;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
 }
 
 
+/*CSS Mobile Adaptations */
+
+@media(max-width:767px){
+  .action-button{
+    font-size: 17px;
+  }
+}

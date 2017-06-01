@@ -8,17 +8,7 @@
   align-items: center;
   justify-content: left;
   padding-left: 15%;
-}
-.banner h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-}
-.banner p {
-  font-size: 60px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 20px;
+  transition: all 0.25s ease;
 }
 
 .banner h2 {
@@ -26,6 +16,16 @@
   font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
+  transition: all 0.25s ease;
+}
+
+/*CSS Mobile Adaptations -Banner 1 - Banner 2 at the end of banner 2 */
+
+@media(max-width:767px){
+  .banner h2{
+    font-size: 30px;
+    transition: all 0.25s ease;
+  }
 }
 
 .banner_2 {
@@ -37,25 +37,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.25s ease;
 }
 .banner_2 h2 {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease;
 }
 .banner_2 p {
   font-size: 14px;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
+  transition: all 0.25s ease;
 }
 
 .banner_2 h3 {
   font-size: 30px;
   color: rgba(255, 255, 255, 1.0);
   margin-bottom: 20px;
+  transition: all 0.25s ease;
 }
 
 #big-icon {
   font-size: 100px
+  transition: all 0.25s ease;
 }
+
+/*CSS Mobile Adaptations Banner 2 */
+
+@media(max-width:767px){
+  .banner_2{
+    height: 1160px;
+    transition: all 0.25s ease;
+  }
+}
+
