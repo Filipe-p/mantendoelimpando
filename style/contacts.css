@@ -27,3 +27,10 @@
   text-decoration: none;
   transition: all 0.2s ease;
 }
+
+@media(max-width:767px){
+  .a-tag-contacts{
+    font-size: 30px;
+    transition: all 0.25s ease;
+  }
+}
