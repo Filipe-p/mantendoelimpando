@@ -12,8 +12,11 @@
 
 body {
   font-family: 'Ubuntu Mono', monospace !important;
+  transition: all ease 0.25s;
 }
-
+.padded {
+  padding: 5em 0;
+}
 .slightly-padded {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -24,11 +27,11 @@ body {
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .action-button {
