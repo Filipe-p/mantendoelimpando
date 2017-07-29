@@ -21,7 +21,12 @@
 
 /* Navbar logo */
 .mantendo-limpando-brand img {
-  width: 200px ;
+  width: 200px;
+}
+@media(max-width: 400px) {
+  .mantendo-limpando-brand img {
+    width: 150px;
+  }
 }
 
 /* Navbar right section (with form, links, button) */
